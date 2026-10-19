@@ -33,6 +33,12 @@ class Mage extends Character {
   String toString() {
     return '🔮 Маг $name (Мана: $mana/$maxMana)';
   }
+
+  @override
+  int attack() {
+    // TODO: implement attack
+    throw UnimplementedError();
+  }
 }
 class Archer extends Character {
   final double critChance;
